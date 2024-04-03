@@ -243,7 +243,7 @@
             this.panel2.Controls.Add(this.iconButton6);
             this.panel2.Location = new System.Drawing.Point(264, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(568, 47);
+            this.panel2.Size = new System.Drawing.Size(625, 47);
             this.panel2.TabIndex = 2;
             // 
             // label2
@@ -268,7 +268,7 @@
             this.iconButton6.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton6.IconSize = 25;
             this.iconButton6.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.iconButton6.Location = new System.Drawing.Point(521, 9);
+            this.iconButton6.Location = new System.Drawing.Point(578, 9);
             this.iconButton6.Name = "iconButton6";
             this.iconButton6.Size = new System.Drawing.Size(35, 34);
             this.iconButton6.TabIndex = 3;
@@ -284,7 +284,7 @@
             this.panel5.BackColor = System.Drawing.SystemColors.Control;
             this.panel5.Location = new System.Drawing.Point(264, 53);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(568, 491);
+            this.panel5.Size = new System.Drawing.Size(625, 491);
             this.panel5.TabIndex = 3;
             // 
             // timer1
@@ -297,7 +297,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(832, 544);
+            this.ClientSize = new System.Drawing.Size(889, 544);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);

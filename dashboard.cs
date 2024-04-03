@@ -57,6 +57,8 @@ namespace TimeTracker
         private void iconButton3_Click(object sender, EventArgs e)
         {
             isActive(iconButton3, iconButton2, iconButton4, iconButton5);
+
+            ShowFormInPanel(new attendance());
         }
 
         private void iconButton4_Click(object sender, EventArgs e)
