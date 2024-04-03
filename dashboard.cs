@@ -72,6 +72,8 @@ namespace TimeTracker
         private void dashboard_Load(object sender, EventArgs e)
         {
             timer1.Start();
+            isActive(iconButton2, iconButton3, iconButton4, iconButton5);
+            ShowFormInPanel(new dashhome());
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -81,10 +83,10 @@ namespace TimeTracker
         }
         public static void isActive(IconButton args, IconButton args1, IconButton args2, IconButton args3)
         {
-            args.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
-            args1.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            args2.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            args3.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            args.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            args1.Padding = new System.Windows.Forms.Padding(30, 0, 0, 0);
+            args2.Padding = new System.Windows.Forms.Padding(30, 0, 0, 0);
+            args3.Padding = new System.Windows.Forms.Padding(30, 0, 0, 0);
 
             args.ForeColor = Color.OrangeRed;
             args.IconColor = Color.OrangeRed;

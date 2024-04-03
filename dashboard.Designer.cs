@@ -30,6 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
             this.iconButton5 = new FontAwesome.Sharp.IconButton();
             this.iconButton4 = new FontAwesome.Sharp.IconButton();
             this.iconButton3 = new FontAwesome.Sharp.IconButton();
@@ -39,10 +40,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.iconButton6 = new FontAwesome.Sharp.IconButton();
             this.label2 = new System.Windows.Forms.Label();
+            this.iconButton6 = new FontAwesome.Sharp.IconButton();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -65,6 +65,22 @@
             this.panel1.Size = new System.Drawing.Size(264, 544);
             this.panel1.TabIndex = 0;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label3.Font = new System.Drawing.Font("Poppins", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Gainsboro;
+            this.label3.Location = new System.Drawing.Point(0, 472);
+            this.label3.Name = "label3";
+            this.label3.Padding = new System.Windows.Forms.Padding(5);
+            this.label3.Size = new System.Drawing.Size(114, 29);
+            this.label3.TabIndex = 16;
+            this.label3.Text = "Up Time: 00:00:00";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
             // iconButton5
             // 
             this.iconButton5.BackColor = System.Drawing.SystemColors.ControlText;
@@ -81,7 +97,7 @@
             this.iconButton5.Location = new System.Drawing.Point(0, 386);
             this.iconButton5.Margin = new System.Windows.Forms.Padding(10, 3, 3, 3);
             this.iconButton5.Name = "iconButton5";
-            this.iconButton5.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.iconButton5.Padding = new System.Windows.Forms.Padding(30, 0, 0, 0);
             this.iconButton5.Size = new System.Drawing.Size(264, 51);
             this.iconButton5.TabIndex = 15;
             this.iconButton5.Text = "Reports";
@@ -106,7 +122,7 @@
             this.iconButton4.Location = new System.Drawing.Point(0, 335);
             this.iconButton4.Margin = new System.Windows.Forms.Padding(10, 3, 3, 3);
             this.iconButton4.Name = "iconButton4";
-            this.iconButton4.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.iconButton4.Padding = new System.Windows.Forms.Padding(30, 0, 0, 0);
             this.iconButton4.Size = new System.Drawing.Size(264, 51);
             this.iconButton4.TabIndex = 14;
             this.iconButton4.Text = "Events";
@@ -131,7 +147,7 @@
             this.iconButton3.Location = new System.Drawing.Point(0, 284);
             this.iconButton3.Margin = new System.Windows.Forms.Padding(10, 3, 3, 3);
             this.iconButton3.Name = "iconButton3";
-            this.iconButton3.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.iconButton3.Padding = new System.Windows.Forms.Padding(30, 0, 0, 0);
             this.iconButton3.Size = new System.Drawing.Size(264, 51);
             this.iconButton3.TabIndex = 13;
             this.iconButton3.Text = "Attendance";
@@ -156,7 +172,7 @@
             this.iconButton2.Location = new System.Drawing.Point(0, 233);
             this.iconButton2.Margin = new System.Windows.Forms.Padding(10, 3, 3, 3);
             this.iconButton2.Name = "iconButton2";
-            this.iconButton2.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.iconButton2.Padding = new System.Windows.Forms.Padding(30, 0, 0, 0);
             this.iconButton2.Size = new System.Drawing.Size(264, 51);
             this.iconButton2.TabIndex = 12;
             this.iconButton2.Text = "Dashboard";
@@ -222,14 +238,27 @@
             // 
             this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel2.AutoSize = true;
             this.panel2.BackColor = System.Drawing.Color.Black;
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.iconButton6);
             this.panel2.Location = new System.Drawing.Point(264, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(568, 67);
+            this.panel2.Size = new System.Drawing.Size(568, 47);
             this.panel2.TabIndex = 2;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label2.Font = new System.Drawing.Font("Poppins", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(3, 18);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(277, 28);
+            this.label2.TabIndex = 9;
+            this.label2.Text = "VAW - Violence Against Women";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // iconButton6
             // 
@@ -239,27 +268,13 @@
             this.iconButton6.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton6.IconSize = 25;
             this.iconButton6.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.iconButton6.Location = new System.Drawing.Point(499, 14);
+            this.iconButton6.Location = new System.Drawing.Point(521, 9);
             this.iconButton6.Name = "iconButton6";
-            this.iconButton6.Size = new System.Drawing.Size(41, 34);
+            this.iconButton6.Size = new System.Drawing.Size(35, 34);
             this.iconButton6.TabIndex = 3;
             this.iconButton6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.iconButton6.UseVisualStyleBackColor = true;
             this.iconButton6.Click += new System.EventHandler(this.iconButton6_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label2.Font = new System.Drawing.Font("Poppins", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(6, 18);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(277, 28);
-            this.label2.TabIndex = 9;
-            this.label2.Text = "VAW - Violence Against Women";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // panel5
             // 
@@ -267,26 +282,10 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel5.BackColor = System.Drawing.SystemColors.Control;
-            this.panel5.Location = new System.Drawing.Point(264, 63);
+            this.panel5.Location = new System.Drawing.Point(264, 53);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(568, 481);
+            this.panel5.Size = new System.Drawing.Size(568, 491);
             this.panel5.TabIndex = 3;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label3.Font = new System.Drawing.Font("Poppins", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Gainsboro;
-            this.label3.Location = new System.Drawing.Point(0, 472);
-            this.label3.Name = "label3";
-            this.label3.Padding = new System.Windows.Forms.Padding(5);
-            this.label3.Size = new System.Drawing.Size(114, 29);
-            this.label3.TabIndex = 16;
-            this.label3.Text = "Up Time: 00:00:00";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // timer1
             // 
@@ -317,7 +316,6 @@
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
